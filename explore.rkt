@@ -14,3 +14,10 @@
 
 (unzip/callback '((1 2) (3 4) (5 6)) (λ (as bs)
   as))
+
+
+;; functor
+;; (require data/functor)
+;; (fmap add1 '(1 2 3))
+
+
