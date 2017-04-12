@@ -5,7 +5,7 @@
 ;the 2-digit prefix, 34, is divisible by 2, and the 3-digit prefix,
 ;345, is divisible by 3.
 
-;; Solution with approach I took of generating numbers that met the division
+;; Solution with approach of generating numbers that met the division
 ;; test from left to right using (previous * 10) % place to find possible continuations,
 ;; and pruning the search tree by testing for unique digits.
 
