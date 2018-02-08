@@ -1,0 +1,9 @@
+#lang racket
+
+(define (combsort xs)
+  (define (ref i) (vector-ref xs i))
+  (define (swap i j) (vector-swap! xs i j))
+  (define (new gap) (max 1 (exact-floor (/ gap 1.25))))
+  (define size (vector-length xs))
+  
+  )
